@@ -1,37 +1,17 @@
-# Project Base for Vaadin Flow and Quarkus
+# Project Starter for Vaadin Flow and Quarkus with UI Unit Testing
 
 This project can be used as a starting point to create your own Vaadin Flow application for Quarkus. It contains all the necessary configuration with some placeholder files to get you started.
 
-Quarkus 3.0+ requires Java 17.
+Focus on this project (compared to the base starter at https://github.com/vaadin/base-starter-flow-quarkus) is to illustrate usage with UI Unit testing Pro feature and Quarkus authentication / protected routes.
 
-Starter is also available for [gradle](https://github.com/vaadin/base-starter-flow-quarkus/tree/gradle)
+Attention: There are currently some limitations i vaadins quarkus implementation so this project shows how to workaround these issues. Anyway official support for UI Unit Tests in Vaadin for Quarkus would be preferred.
 
-## Running the Application
+Quarkus 3.1+ requires Java 17.
 
-Import the project to the IDE of your choosing as a Maven project. 
+## Contained workarounds & outlined stumbling blocks
 
-Run application using `mvnw` (Windows), or `./mvnw` (Mac & Linux).
-
-Open [http://localhost:8080/](http://localhost:8080/) in browser.
-
-If you want to run your app locally in production mode, call `mvnw package -Pproduction` (Windows), or `./mvnw package -Pproduction` (Mac & Linux)
-and then
-```
-java -jar target/quarkus-app/quarkus-run.jar
-```
-
-### Including vaadin-jandex for Pro components
-If you are using Pro components such GridPro you need to provide the Jandex index for them as well. 
-Although, this can be achieved by adding their names one-by-one in the `application.properties` similar to the following example:
-```properties
-quarkus.index-dependency.vaadin-grid-pro.group-id=com.vaadin
-quarkus.index-dependency.vaadin-grid-pro.artifact-id=vaadin-grid-pro-flow
-```
-Vaadin recommends using the official Jandex index for the Pro components which is published as part of the platform:
-```xml
-<dependency>
-    <groupId>com.vaadin</groupId>
-    <artifactId>vaadin-jandex</artifactId>
-</dependency>
-```
-The above dependency has already added to the `pom.xml` and all you need to do is uncomment it when if needed. 
+- auto discovering and registering vaadin routes
+- UI Unit Tests for quarkus with authentication support
+- register and initialize ViewAccessChecker
+- Login form for Quarkus
+- @PermitAll in Vaadin is a synomym for @RolesAllowed("**") which does not match Quarkus definition

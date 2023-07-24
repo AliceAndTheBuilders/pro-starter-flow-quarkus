@@ -1,6 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25b3ed78-6c9a-4ddd-b948-ced25799d3d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/ProtectedView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/PublicView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/RootRedirectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/security/ViewAccessCheckerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.vaadin.flow.server.VaadinServiceInitListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/starter/pro/ProtectedViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/starter/pro/PublicViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/starter/pro/QuarkusIsolatedUIBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/starter/pro/UIUnitTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/starter/base/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/starter/base/GreetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/GreetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/starter/base/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starter/pro/GreetView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2T0VHYj1bepZL98mUfhtYjz9D0c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "v24",
+    "last_opened_file_path": "/home/benjaminrau/Projects/base-starter-flow-quarkus/src/main/resources/META-INF/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.28906956",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "ts.external.directory.path": "/home/benjaminrau/Applications/idea-IU-212.5080.55/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/services" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/starter/base" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.starter.base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Quarkus.base-starter-flow-quarkus">
+    <configuration name="ProtectedViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro-starter-flow-quarkus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starter.pro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starter.base" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starter.pro.ProtectedViewTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtectedViewTest.render_fillName_expectParagraphWithName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro-starter-flow-quarkus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starter.pro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starter.base" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starter.pro.ProtectedViewTest" />
+      <option name="METHOD_NAME" value="render_fillName_expectParagraphWithName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtectedViewTest.render_noAction_expectUsernameOnTextField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro-starter-flow-quarkus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starter.pro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starter.base" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starter.pro.ProtectedViewTest" />
+      <option name="METHOD_NAME" value="render_noAction_expectUsernameOnTextField" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtectedViewTest.render_noAuth_expectError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro-starter-flow-quarkus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starter.pro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starter.base" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starter.pro.ProtectedViewTest" />
+      <option name="METHOD_NAME" value="render_noAuth_expectError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro-starter-flow-quarkus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starter.pro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starter.base" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starter.pro.PublicViewTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="pro-starter-flow-quarkus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="pro-starter-flow-quarkus" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="base-starter-flow-quarkus" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="pro-starter-flow-quarkus" />
+      <base-starter-flow-quarkus>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+      </base-starter-flow-quarkus>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProtectedViewTest" />
+        <item itemvalue="JUnit.PublicViewTest" />
+        <item itemvalue="JUnit.ProtectedViewTest.render_noAuth_expectError" />
+        <item itemvalue="JUnit.ProtectedViewTest.render_fillName_expectParagraphWithName" />
+        <item itemvalue="JUnit.ProtectedViewTest.render_noAction_expectUsernameOnTextField" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25b3ed78-6c9a-4ddd-b948-ced25799d3d4" name="Changes" comment="" />
+      <created>1655144847823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655144847823</updated>
+      <workItem from="1690179899367" duration="110000" />
+      <workItem from="1690180018610" duration="3192000" />
+      <workItem from="1690183789194" duration="1078000" />
+      <workItem from="1690184875430" duration="2339000" />
+      <workItem from="1690187219112" duration="13914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/starter/pro/RootRedirectView.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/starter/pro/ProtectedViewTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http/3.1.1.Final/quarkus-vertx-http-3.1.1.Final.jar!/io/quarkus/vertx/http/runtime/security/FormAuthenticationMechanism.class</url>
+          <line>82</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-elytron-security/3.1.1.Final/quarkus-elytron-security-3.1.1.Final.jar!/io/quarkus/elytron/security/runtime/ElytronTokenIdentityProvider.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
   </component>
 </project>

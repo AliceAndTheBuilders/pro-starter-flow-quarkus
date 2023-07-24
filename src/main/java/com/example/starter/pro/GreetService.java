@@ -1,4 +1,4 @@
-package com.example.starter.base;
+package com.example.starter.pro;
 
 import jakarta.enterprise.context.Dependent;
 

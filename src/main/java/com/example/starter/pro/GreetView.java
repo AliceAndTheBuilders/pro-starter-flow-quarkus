@@ -1,6 +1,4 @@
-package com.example.starter.base;
-
-import jakarta.inject.Inject;
+package com.example.starter.pro;
 
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
@@ -8,26 +6,25 @@ import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
-import com.vaadin.flow.router.Route;
+import jakarta.inject.Inject;
 
 /**
- * The main view contains a button and a click listener.
+ * The greet view contains a button and a click listener.
  */
-@Route("")
-public class MainView extends VerticalLayout {
+public abstract class GreetView extends VerticalLayout {
 
     @Inject
-    GreetService greetService;
+    transient GreetService greetService;
 
-    public MainView() {
+    protected TextField textField;
+
+    protected GreetView() {
         // Use TextField for standard text input
-        TextField textField = new TextField("Your name");
+        textField = new TextField("Your name");
         textField.addThemeName("bordered");
 
         // Button click listeners can be defined as lambda expressions
-        Button button = new Button("Say hello", e -> {
-            add(new Paragraph(greetService.greet(textField.getValue())));
-        });
+        Button button = new Button("Say hello", e -> add(new Paragraph(greetService.greet(textField.getValue()))));
 
         // Theme variants give you predefined extra styles for components.
         // Example: Primary button is more prominent look.

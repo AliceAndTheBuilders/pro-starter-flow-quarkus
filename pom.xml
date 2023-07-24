@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.acme</groupId>
-    <artifactId>base-starter-flow-quarkus</artifactId>
+    <artifactId>pro-starter-flow-quarkus</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -20,7 +20,7 @@
 
         <vaadin.version>24.1.3</vaadin.version>
 
-        <quarkus.platform.version>3.0.1.Final</quarkus.platform.version>
+        <quarkus.platform.version>3.1.1.Final</quarkus.platform.version>
         <surefire-plugin.version>3.0.0</surefire-plugin.version>
 
     </properties>
@@ -46,28 +46,54 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-elytron-security-properties-file</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-quarkus-extension</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
 
-        <!-- Uncomment the following if you are using any of the Pro components -->
-        <!--
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-jandex</artifactId>
         </dependency>
-        -->
 
-        <!-- Quarkus always pulls in slf4j-jboss-logmanager into target/lib; don't use slf4j-simple -->
         <dependency>
-            <groupId>org.jboss.slf4j</groupId>
-            <artifactId>slf4j-jboss-logmanager</artifactId>
-            <version>1.1.0.Final</version>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-testbench</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-testbench-junit5</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-junit5</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-test-security</artifactId>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
