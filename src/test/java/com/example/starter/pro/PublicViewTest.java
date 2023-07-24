@@ -13,7 +13,7 @@ class PublicViewTest extends QuarkusIsolatedUIBaseTest {
     @Test
     void render_fillName_expectParagraphWithName() {
         // GIVEN
-        uiTestHelper.navigate(LoginView.class);
+        uiTestHelper.navigate(PublicView.class);
 
         // WHEN
         test(uiTestHelper.$(TextField.class).first()).setValue("quarkus");
