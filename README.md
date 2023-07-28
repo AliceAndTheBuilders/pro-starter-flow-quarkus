@@ -20,3 +20,4 @@ Quarkus 3.1+ requires Java 17.
 - register and initialize ViewAccessChecker
 - Login form for Quarkus
 - @PermitAll in Vaadin is a synonym for @RolesAllowed("**") which does not match Quarkus definition
+- Correct order of BOM imports (https://github.com/vaadin/quarkus/issues/124)
