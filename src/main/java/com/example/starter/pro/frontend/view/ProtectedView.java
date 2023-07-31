@@ -27,7 +27,7 @@ public class ProtectedView extends GreetView {
         textField.setValue(identity.getIdentity().getPrincipal().getName());
 
         Button logout = new Button(new Icon(VaadinIcon.SIGN_OUT),
-                e -> UI.getCurrent().navigateToClient(Paths.LOGOUT));
+                e -> UI.getCurrent().getPage().setLocation(Paths.LOGOUT));
 
         add(logout);
     }
