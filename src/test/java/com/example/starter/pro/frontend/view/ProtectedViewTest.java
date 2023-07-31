@@ -1,5 +1,6 @@
-package com.example.starter.pro;
+package com.example.starter.pro.frontend.view;
 
+import com.example.starter.pro.QuarkusIsolatedUIBaseTest;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.textfield.TextField;

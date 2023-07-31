@@ -1,6 +1,6 @@
 package com.example.starter.pro.security;
 
-import com.example.starter.pro.LoginView;
+import com.example.starter.pro.frontend.Paths;
 import com.vaadin.flow.server.ServiceInitEvent;
 import com.vaadin.flow.server.VaadinServiceInitListener;
 import com.vaadin.flow.server.auth.ViewAccessChecker;
@@ -23,7 +23,7 @@ public class ViewAccessCheckerInitializer implements VaadinServiceInitListener {
 	public ViewAccessCheckerInitializer() {
 		viewAccessChecker = new ViewAccessChecker();
 		// Set the path to the core login URI for redirects if the user is not authenticated
-		viewAccessChecker.setLoginView(LoginView.URI);
+		viewAccessChecker.setLoginView(Paths.LOGIN);
 	}
 
 	@Override

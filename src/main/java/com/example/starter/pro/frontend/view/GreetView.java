@@ -1,5 +1,6 @@
-package com.example.starter.pro;
+package com.example.starter.pro.frontend.view;
 
+import com.example.starter.pro.frontend.GreetService;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
