@@ -1,5 +1,6 @@
-package com.example.starter.pro;
+package com.example.starter.pro.frontend.view;
 
+import com.example.starter.pro.frontend.Paths;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
@@ -22,6 +23,6 @@ public class RootRedirectView extends VerticalLayout {
 	private static final long serialVersionUID = -7000478309055815278L;
 
 	public RootRedirectView() {
-		UI.getCurrent().navigateToClient(ProtectedView.URI);
+		UI.getCurrent().navigateToClient(Paths.PROTECTED);
 	}
 }
